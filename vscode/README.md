@@ -17,35 +17,3 @@ VS Code will install by default. If you want the repository and the insiders bui
 To install VS Code insiders build set this to true.
   vscode_insiders_install: true
 
-Dependencies
-------------
-
-None
-
-Example Playbook
-----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - ngetchell.vscode
-
-
-   - hosts: servers
-     roles:
-        - {
-            role: ngetchell.vscode,
-            vscode_install: true,
-            vscode_insiders_install: true
-          }
-
-License
--------
-
-MIT
-
-Author Information
-------------------
-
-Follow me on Twitter [@getch3028](https://twitter.com/getch3028) or at my PowerShell [blog](https://powershell.getchell.org).
